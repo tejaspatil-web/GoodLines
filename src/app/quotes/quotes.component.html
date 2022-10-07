@@ -1,0 +1,85 @@
+<h1 style="color: black">
+  1500+ Inspirational Quotes to Keep You Inspired in 2022,<br />- You Can Do
+  Hard Things!
+</h1>
+
+<div class="carousel01">
+  <div
+    id="carouselExampleIndicators"
+    class="carousel slide"
+    data-bs-ride="true"
+  >
+    <div class="carousel-indicators">
+      <button
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide-to="0"
+        class="active"
+        aria-current="true"
+        aria-label="Slide 1"
+      ></button>
+      <button
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide-to="1"
+        aria-label="Slide 2"
+      ></button>
+      <button
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide-to="2"
+        aria-label="Slide 3"
+      ></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img
+          src="https://raw.githubusercontent.com/tejaspatil-web/Api/main/Images/life-inspirational-quotes-be-stronger-than-your-excuses-blurry-background-motivational-170115740.jpg"
+          class="d-block w-100"
+          alt="..."
+        />
+      </div>
+      <div class="carousel-item">
+        <img
+          src="https://raw.githubusercontent.com/tejaspatil-web/Api/main/Images/inspirational-motivating-quotes-2.jpg"
+          class="d-block w-100"
+          alt="..."
+        />
+      </div>
+      <div class="carousel-item">
+        <img
+          src="https://raw.githubusercontent.com/tejaspatil-web/Api/main/Images/inspirational-quotes-3.jpg"
+          class="d-block w-100"
+          alt="..."
+        />
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="quotes" *ngFor="let quotes of data">
+  <div class="none">
+    <h2 id="quotes.text" style="color: rgba(0, 0, 0, 0.589)">
+      &#8220;{{ quotes.text }}&#8221;
+    </h2>
+    <h4 style="margin-left: 30px; color: black">- {{ quotes.author }}</h4>
+    <br />
+    <div class="ld">
+      <div>
+        <mat-icon (click)="like()" [style.color]="color"> thumb_up</mat-icon>
+        <span style="color: rgb(29, 29, 29)">Like</span>
+      </div>
+      <div>
+        <mat-icon class="dislike" (click)="dislike()" [style.color]="dcolor"
+          >thumb_down</mat-icon
+        >
+        <span style="color: rgb(29, 29, 29)">Dislike</span>
+      </div>
+    </div>
+    <br />
+  </div>
+</div>
+<div class="showmore">
+  <button (click)="showmore()" class="showmorebtn">Show More</button>
+</div>
+<app-footer></app-footer>

@@ -1,0 +1,50 @@
+<div class="quotes">
+  <div (click)="refresh()" class="btn">
+    <mat-icon class="refreshicon">refresh</mat-icon>
+  </div>
+  <img
+    class="img"
+    src="https://source.unsplash.com/1600x900/?nature/motivational"
+    height="350vh"
+    alt=""
+  />
+
+  <div *ngFor="let q of quotes">
+    <div *ngIf="q.text == get">
+      <h2 id="quotes.text" style="color: rgba(0, 0, 0, 0.589)">
+        &#8220;{{ q.text }}&#8221;
+      </h2>
+      <h4 style="margin-left: 30px; color: black">- {{ q.author }}</h4>
+    </div>
+  </div>
+
+  <br />
+
+  <div class="ld">
+    <div>
+      <mat-icon class="like" (click)="like()" [style.color]="color">
+        thumb_up</mat-icon
+      >
+      <h3 class="ld1" style="color: rgb(29, 29, 29)">Like</h3>
+    </div>
+    <div>
+      <mat-icon (click)="dislike()" class="dislike" [style.color]="dcolor"
+        >thumb_down</mat-icon
+      >
+      <h3 class="ld1" style="color: rgb(29, 29, 29)">Dislike</h3>
+    </div>
+  </div>
+  <div>
+    <div class="copy">
+      <img
+        (click)="copy()"
+        class="copy1"
+        src="https://raw.githubusercontent.com/tejaspatil-web/Api/main/Images/copy-content.png"
+        width="25px"
+        alt=""
+      />
+    </div>
+    <h4 class="popup" [style.display]="display" style="color: black">Copied</h4>
+  </div>
+</div>
+<app-footer></app-footer>

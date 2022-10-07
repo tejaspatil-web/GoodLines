@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merienda+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap");
+
+.quotes {
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+  margin: auto;
+  margin-top: 25px;
+  margin-bottom: 30px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 15px;
+  padding: 20px;
+  background-image: linear-gradient(
+    92.7deg,
+    rgba(245, 212, 212, 1) 8.5%,
+    rgba(252, 251, 224, 1) 90.2%
+  );
+}
+
+.img {
+  border-radius: 10px;
+}
+
+.refreshicon {
+  font-size: 32px;
+  width: 28px;
+  height: 28px;
+  margin-top: -10px;
+}
+
+.btn {
+  margin-left: auto;
+}
+
+h2 {
+  font-family: "Merienda One", cursive;
+  margin-top: 10px;
+}
+
+h3 {
+  font-family: "Cinzel", serif;
+  font-weight: 900;
+  font-size: small;
+}
+
+h4 {
+  display: inline;
+  font-family: "Dancing Script", cursive;
+  letter-spacing: 1px;
+  font-weight: 600;
+  font-size: 17px;
+}
+
+.ld {
+  display: flex;
+  margin: 0px 0px 0px -20px;
+}
+
+.dislike {
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.like {
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.ld1 {
+  padding-top: -70px;
+  margin: 0px 0px 0px 15px;
+}
+
+.copy {
+  display: flex;
+  justify-content: end;
+  align-items: flex-end;
+  margin-top: -40px;
+}
+
+.copy1 {
+  cursor: pointer;
+}
+
+.popup {
+  position: absolute;
+  display: none;
+  margin-left: 37.9rem;
+}
+
+::selection {
+  background-color: black;
+  color: white;
+}

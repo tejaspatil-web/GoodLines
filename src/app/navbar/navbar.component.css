@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap");
+
+.user {
+  position: relative;
+  display: flex;
+}
+
+h1 {
+  color: rgb(0, 0, 0);
+  font-family: "Josefin Sans", sans-serif;
+  margin-top: 5px;
+}
+
+.lines {
+  color: rgb(255, 255, 255);
+  margin-top: 100px;
+}
+
+.main {
+  background-image: linear-gradient(to right, #ffeed6 0%, #ffd2c3 100%);
+}
+
+.bi {
+  margin-top: 10px;
+  font-size: larger;
+  margin-left: 10px;
+  position: relative;
+  border-radius: 5px;
+}
+
+.t-r {
+  margin-left: auto;
+  font-weight: 400;
+  margin-top: 7px;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.icon {
+  display: flex;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.user-profile {
+  display: flex;
+  margin-left: auto;
+  cursor: pointer;
+}
+
+.topnav {
+  background: linear-gradient(
+    64.3deg,
+    rgba(254, 122, 152, 0.81) 17.7%,
+    rgba(255, 206, 134, 1) 64.7%,
+    rgba(172, 253, 163, 0.64) 112.1%
+  );
+  background-color: rgb(255, 255, 255);
+  color: black;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.096);
+}
+
+.leftnav {
+  background: linear-gradient(
+    64.3deg,
+    rgba(254, 122, 152, 0.81) 17.7%,
+    rgba(255, 206, 134, 1) 64.7%,
+    rgba(172, 253, 163, 0.64) 112.1%
+  );
+  background-color: rgb(255, 255, 255);
+  color: black;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 0px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+h2 {
+  font-family: "Times New Roman", Times, serif;
+}

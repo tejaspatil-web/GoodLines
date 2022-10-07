@@ -1,0 +1,28 @@
+<div class="d-flex flex-column">
+  <div class="card m-3" style="max-width: 400px">
+    <div class="row card1 g-2">
+      <div class="col-md-3">
+        <mat-icon class="person" style="color: black">person</mat-icon>
+      </div>
+      <div class="col-md-8" style="color: black">
+        <div class="card-body">
+          <h3 class="card-text mb-0">Name : {{ Name }}</h3>
+          <h3 class="card-text mb-0">Email : {{ Email }}</h3>
+          <h3 class="card-text mb-0">Contact.No : {{ Number }}</h3>
+          <h3 class="card-text mb-2">Gender : {{ Gender }}</h3>
+          <button type="button" class="btn btn1 btn-dark disabled btn-sm">
+            Edit Profile
+          </button>
+          <button
+            type="button"
+            class="btn btn2 btn-dark btn-sm"
+            routerLink=""
+            (click)="clear()"
+          >
+            Signout
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap");
+
+.btn1 {
+  margin: 0px 10px 0px 0px;
+}
+
+h3 {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.card {
+  background-image: linear-gradient(
+    92.7deg,
+    rgba(245, 212, 212, 1) 8.5%,
+    rgba(252, 251, 224, 1) 90.2%
+  );
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  border-radius: 10px;
+}
+
+.card-body {
+  margin-left: 20px;
+}
+
+.person {
+  border-radius: 10px;
+  border: 2px solid black;
+  padding: 0px 80px 80px 0px;
+  margin: 45px 0px 0px 20px;
+  width: 70px;
+  height: 70px;
+  font-size: 80px;
+}

@@ -1,0 +1,30 @@
+.icons {
+  /* margin-top: 20px; */
+  height: 40px;
+  background-color: black;
+  display: flex;
+}
+
+svg {
+  justify-content: center;
+  margin-left: 20px;
+}
+
+.svgicons {
+  margin: auto;
+}
+
+.copyright {
+  background-color: black;
+  text-align: center;
+  width: 100%;
+  font-family: "Cinzel", serif;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: blue;
+}
